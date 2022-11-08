@@ -1,0 +1,728 @@
+
+@media(min-width:1300){}
+@media(min-width:1200px)and(max-width:1399.98px){
+    .banner_text h2::after {
+        width: 98px;
+        right: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+    }
+    .banner_item h2::before {
+        width: 151px;
+    }
+    .banner_text p::after {
+        width: 25px;
+    }
+    .banner_item p::before {
+        width: 59px;
+    }
+    .banner_text p::after, .banner_item p::before {
+        top: 141%;
+
+    }
+
+}
+@media(min-width:992px)and(max-width:1199.98px){
+    .common_head {
+        margin-bottom: 0px;
+    }
+
+    .class_body ul li {
+        width: 19.44%;
+        margin-right: 3px;
+    }
+}
+@media(min-width:768px)and (max-width:991.98px){  
+    
+    .main_menu .navbar-brand {
+    width: 200px;
+    }
+
+    .main_menu ul li a {
+    font-size: 13px;
+    padding: 0 5px !important;
+    }
+
+    .banner_item h2::before {
+        width: 172px;
+    }
+    .banner_item p::before {
+        width: 104px;
+    }
+    .banner_text p::after {
+        width: 75px;
+    }
+    .gal_img:nth-child(1) {
+        margin-bottom: 30px;
+    }
+    .about_text p {
+     text-align: justify;
+    }
+    .member_box h2 {
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .member_box .mem_img {
+        padding: 50px;
+    }
+    .member_box ul li {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .member_box a {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .class_body ul li {
+        width: 19.28%;
+    }
+
+    
+
+    }
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Menu part start */
+    .main_menu {
+        background: #e23e38;
+        top: 0;
+    }
+
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 50px;
+        line-height: 40px;
+    }
+
+    .main_menu button i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu #navbarSupportedContent{
+        background: #e23e38;
+        text-align: center;
+        padding: 10px 0 0;
+        border-top: 1px solid #fff;
+    }
+
+    .main_menu ul li a::after {
+        display: none;
+    }
+
+    .main_menu ul li a {
+        line-height: 35px;
+    }
+
+    /* Menu part end */
+
+    /* Banner part start */
+    .banner_item {
+        padding: 140px 0 80px;
+    }
+
+    .banner_item .banner_text h2::after,
+    .banner_item .banner_text h2::before,
+    .banner_item .banner_text h1::after,
+    .banner_item .banner_text h1::before,
+    .banner_item .banner_text p::after,
+    .banner_item .banner_text p::before {
+        display: none;
+    }
+
+    .banner_item .banner_text h2 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .banner_item .banner_text h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .banner_item .banner_text p {
+        padding: 0px 0px;
+    }
+
+    .banner_item .banner_text a {
+        font-size: 14px;
+        padding: 5px 14px;
+        margin: 0 5px;
+    }
+
+    #banner ul li button {
+        width: 10px;
+        height: 10px;
+    }
+
+    #banner ul li {
+        margin: 0 3px;
+    }
+
+    #banner ul .slick-active button {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* Banner part end */
+
+    /* About part start */
+    #about {
+        padding: 53px 0 14px;
+    }
+
+    .about_text p {
+        padding: 0 0 30px 0;
+        text-align: justify;
+    }
+
+    .about_text p span {
+        margin-top: 12px;
+    }
+
+    /* About part end */
+
+    /* Gallery part start */
+    #gellary {
+        padding: 40px 0 50px;
+    }
+    .gal_img:nth-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .gal_banner {
+        padding: 30px 0 0;
+    }
+
+    /* Gallery part end */
+
+    /* Team part start */
+    .team_main {
+        transform: translateY(-42px);
+        -webkit-transform: translateY(-42px);
+        -moz-transform: translateY(-42px);
+        -ms-transform: translateY(-42px);
+        -o-transform: translateY(-42px);
+    }
+
+    .team_main .team_img .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    .team_main .team_text {
+        border: 1px solid #ddd;
+    }
+
+    .team_main .team_text p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    #team {
+        padding: 5px 0 0px;
+    }
+
+    /* Team part end */
+
+    /* Testimonial part start */
+    #testi {
+        padding: 13px 0;
+    }
+
+    /* Testimonial part end */
+
+    /* Membership part start */
+    .member_box h2 {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .member_box .member_img p {
+        font-size: 35px;
+    }
+
+    .member_box .member_img p span {
+        font-size: 22px;
+    }
+
+    .member_box .member_img {
+        padding: 15px 0;
+    }
+
+    .member_box ul {
+        padding: 10px 0 10px;
+    }
+
+    .member_box ul li {
+        padding: 5px 0;
+    }
+
+    .member_box a {
+        padding: 7px 0;
+        font-size: 14px;
+    }
+
+    .member_box {
+        margin-bottom: 24px;
+    }
+
+    #member {
+        padding: 40px 0 25px;
+    }
+
+    /* Membership part end */
+
+    /* Counter part start */
+    .count_col .count_num h3 {
+        font-size: 32px;
+    }
+
+    /* Counter part end */
+
+    /* Classes part start */
+    #our_classes {
+        padding-top: 45px;
+    }
+
+    .class_manu li {
+        width: 33.33333%;
+        border-bottom: 1px solid #e23e38;
+        height: 35px;
+    }
+
+    .class_manu li button {
+        height: 35px;
+    }
+
+    .class_manu {
+        height: auto;
+    }
+
+    .class_body ul li {
+        width: 49.51%;
+        padding: 20px 0;
+    }
+
+    .class_body ul li:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .class_body ul li:nth-child(5) {
+        margin-right: 5px;
+    }
+
+    .class_body ul li h6 {
+        font-size: 14px;
+    }
+
+    .class_body ul li p {
+        font-size: 14px;
+    }
+
+    .class_body ul li i {
+        font-size: 35px;
+    }
+
+    /* Classes part end */
+
+    /* Client part start */
+    #logos {
+        padding: 44px 0;
+    }
+
+    .logo_part {
+        background: #ddd;
+        padding: 20px 10px;
+    }
+
+    /* Client part end */
+
+    /* Footer part start */
+    .footer_left_head h4,
+    .footer_left2 h4,
+    .footer_left3 h4,
+    .footer_last h4 {
+        padding: 60px 0 15px;
+    }
+
+    .footer_left3 h4,
+    .footer_last h4 {
+        padding-top: 30px;
+    }
+
+    .twett_2 {
+        padding-top: 20px;
+    }
+
+    .footer_left3 ul li {
+        width: 21.95%;
+    }
+
+    .footer_last-col {
+        margin-bottom: 5px;
+    }
+
+    /* Footer part end */
+
+}
+@media(max-width:575.98px){ 
+    
+    /* ====================
+    main menu star
+    ===================== */
+    .main_menu {
+        position: absolute;
+        background: tomato;
+        top:0;
+   
+    }
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 51px;
+        line-height: 35px;
+    }
+    .main_menu button i{
+        color:#fff;
+    }
+    .main_menu .navbar-toggler:focus{
+        box-shadow: 0 0 0 0;
+    }
+    .main_menu #navbarSupportedContent{
+        background: tomato;
+        text-align: center;
+        border-top: 2px solid#fff;
+    }
+   .main_menu ul li a::after {
+        display: none;
+
+        
+    }
+    .main_menu ul li a {
+        line-height: 35px;
+    }
+    /* ======================
+    main menu end
+    ========================= */
+
+
+
+    /* ====================
+   banner menu star
+    ===================== */
+    .banner_item {
+        padding: 170px 0 70px;
+
+    }
+    .banner_text h2::after,
+     .banner_item h2::before ,
+    .banner_text h1::after,
+     .banner_item h1::before, 
+    .banner_text p::after,
+     .banner_item p::before 
+     {
+    display: none;
+    }
+    .banner_text h2 {
+        font-size: 22px;
+        margin-bottom:0 ;
+    }
+    .banner_text h1 {
+        font-size: 30px;
+    }
+    .banner_text p {
+        font-size: 12px;
+        padding:0;
+    }
+    .m-auto {
+        margin: 0 !important;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .banner_text a {
+        padding: 6px 15px;
+        font-size: 12px;
+        margin: 0 5px;
+    }
+    #banner .slick-dots li.slick-active button {
+        width: 12px;
+        height: 12px;
+    }
+    #banner .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        border: 1px solid deepskyblue;  
+        margin: 0 5px;
+    }
+    
+    /* ======================
+    banner menu end
+    ========================= */
+    /* ====================
+    about menu star
+    ===================== */
+    .about_text p{
+        text-align: justify;
+    }
+    /* ======================
+    about menu end
+    ========================= */
+    /* ====================
+     gellery menu star
+    ===================== */
+    #gellery{
+        padding:30px 0  50px;
+    }
+    .gellery_img:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .gell_bg {
+        padding: 30px 0 0;
+    }
+    .gellery_img .overly {
+        position: absolute;
+        content: '';
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        background: rgba(228, 147, 118, 0.3);
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        border: 5px solid #ddd;
+    }
+    .gellery_img:hover .overly{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+    /* ======================
+    gellery menu end
+    ========================= */
+    /* ====================
+    team menu star
+    ===================== */
+    .team_main {
+        padding-top: 40px;
+        transition: all linear .4s;
+        -webkit-transition: all linear .4s;
+        -moz-transition: all linear .4s;
+        -ms-transition: all linear .4s;
+        -o-transition: all linear .4s;
+    }
+    .team_main {
+        padding-top: 10px;
+    }
+    .team_main .team_text p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .team_img .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    /* ======================
+    team menu end
+    ========================= */
+    /* ====================
+    test menu star
+    ===================== */
+    .hello h2 {
+        color: #fff;
+        font-size: 22px;
+    }
+    .hello h5 {
+        color: #fff;
+        font-size: 16px;
+    }
+    .hello i {
+        color: rgb(255, 167, 3);
+    }
+    .slide_text .slick-dots li.slick-active button {
+        width: 16px;
+        height: 16px;
+
+    }
+    .slide_text .slick-dots li button {
+        width: 14px;
+        height: 14px;
+    }
+    /* ======================
+    test menu end
+    ========================= */
+    /* ====================
+   price menu star
+    ===================== */
+    .member_box h2 {
+        padding: 10px;
+        font-size: 17px;
+    }
+    .member_box a {
+        padding: 9px;
+        font-size: 16px;
+    }
+    .member_box .mem_img p span {
+        font-size: 20px;
+    }
+    .member_box .mem_img p {
+        font-size: 25px;
+    }
+    .member_box ul li {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+ 
+    .member_box .mem_img {
+        padding: 40px;
+        position: relative;
+        z-index: 1;
+    }
+    .member_box .mem_img p {
+        position: absolute;
+        left: 26%;
+        top: 27%;
+        font-size: 22px;
+        color: wheat;
+        font-weight: 500;
+    }
+    .member_box .mem_img p {
+        position: absolute;
+        left: 26%;
+        top: 30%;
+        font-size: 20px;
+        color: wheat;
+        font-weight: 500;
+    }
+    .member_box{
+        margin-bottom: 24px;
+    }
+    /* ======================
+    counter menu end
+    ========================= */
+    .counter_text h3 {
+        font-size: 20px;
+    }
+    .counter_text p {
+        font-size: 12px;
+    }
+    /* ====================
+    counter menu star
+    ===================== */
+    .class_menu li{
+        width: 33.33%;
+        border-bottom: 1px solid rgb(181, 69, 69);
+        height: 35px;
+        }
+        .class_menu li button{
+            height:35px;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+            height:35px;
+
+        }
+        .class_body ul li {
+            width: 49.16%;
+            padding: 20px 0;
+        }
+        .class_body ul li:nth-child(2),
+        .class_body ul li:nth-child(4),
+        .class_body ul li:nth-child(6),
+        .class_body ul li:nth-child(8),
+        .class_body ul li:nth-child(10){
+            margin-right: 0;
+        }
+        .class_menu {
+            height: auto;
+            background: #e7e7e7;
+        }
+    /* ======================
+    class menu end
+    ========================= */
+    
+    /* ====================
+   logo menu star
+    ===================== */
+    .logo_part img {
+        height: 20px;
+    }
+
+    /* ======================
+    logo menu end
+    ========================= */
+    /* ====================
+   last menu star
+    ===================== */
+    p {
+        margin-bottom: 0rem;
+    }
+    .head h2 {
+        color: azure;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 12px 0;
+    }
+    /* ======================
+    LAST menu end
+    ========================= */
+    /* ====================
+    footer menu star
+    ===================== */
+    .member_box .mem_img p {
+        position: absolute;
+        left: 26%;
+        top: 42%;
+        font-size: 40px;
+        color: wheat;
+        font-weight: 500;
+    }
+
+
+    .footer_left_1 h4, .footer_left_2 h4, .footer_left_3 h4, .footer_left_4 h4 {
+        padding: 20px 0 30px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .footer_logo::after {
+        bottom: -10px;
+    }
+    #footer {
+        padding: 10px 0 20px;
+
+    }
+    .footer_left_3 ul li {
+        width: 23.73%;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+    /* ======================
+    footer menu end
+    ========================= */
+}
